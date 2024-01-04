@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #582f0e;
+    color: #b6ad90;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+.tagline {
+    font-style: italic;
+}
+
+#about {
+    position: relative;
+    
+    width: 100%;
+    background-color: #7f4f24;
+}
+
+.profile-image img {
+    float: left;
+    width: 30%;
+    border-radius: 4px;
+  
+}
+
+.bio {
+    font-size: 15px;
+    width: 70%;
+    float: right;
+    color: #582f0e;}
+
+
+#skills {
+    background-color: #936639;
+    padding: 40px;
+}
+
+.skill-list {
+    max-width: 50%;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #a68a64;
+}
+
+.project {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#resume {
+    text-align: center;
+    padding: 40px;
+    background-color: #b6ad90;
+    color: #582f0e;
+}
+
+#contact {
+    background-color: #c2c5aa;
+    color: #582f0e;
+    text-align: center;
+    padding: 40px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
